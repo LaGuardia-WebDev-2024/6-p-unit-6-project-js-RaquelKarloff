@@ -7,16 +7,35 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255,0);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+//icecream
+fill(153,204,255) 
+ellipse(200,300,330,170)
+fill(255,229,204)
+ellipse(195,220, 150,140) 
+fill(255,204,204)
+ellipse(281,250,150,140)
+fill(246,250,238)
+ellipse(125,256,150,140)
+fill(145,187,208)
+ellipse(200,310,90,80)
+fill(255,255,255)
+//spoon
+  strokeWeight(30);
+stroke(145,187,208) 
+//bowl
+line(212,291,349,139)
+strokeWeight(0)
+stroke(208,229,242)
+noFill()
+arc(200,280,300,120,radians(0),radians(180))
 
-  
+
 
 }
-
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
